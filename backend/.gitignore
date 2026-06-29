@@ -1,0 +1,143 @@
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+logs/
+*.out
+
+# SQLite
+*.sqlite3
+*.db
+
+# ==========================================
+# Environment Variables
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Flask
+# ==========================================
+instance/
+.webassets-cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# ==========================================
+# VS Code
+# ==========================================
+.vscode/
+.history/
+
+# ==========================================
+# JetBrains
+# ==========================================
+.idea/
+
+# ==========================================
+# OS Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Node / Frontend
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# Docker
+# ==========================================
+*.tar
+docker/*.tar
+
+# ==========================================
+# Terraform
+# ==========================================
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/crash.log
+terraform/*.tfvars
+terraform/override.tf
+terraform/override.tf.json
+terraform/*_override.tf
+terraform/*_override.tf.json
+
+# ==========================================
+# Kubernetes
+# ==========================================
+*.kubeconfig
+kubeconfig
+
+# ==========================================
+# Secrets
+# ==========================================
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+id_rsa
+id_rsa.pub
+
+# AWS Credentials
+.aws/
+
+# ==========================================
+# Testing
+# ==========================================
+.pytest_cache/
+coverage.xml
+nosetests.xml
+
+# ==========================================
+# Cache
+# ==========================================
+.cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Misc
+# ==========================================
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+# ==========================================
+# Local History
+# ==========================================
+.history/
